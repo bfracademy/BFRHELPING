@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BRF-materiale si teste</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+            color: #333;
+        }
+
+        header {
+            background-color: #A2DFF7; /* Baby Blue */
+            text-align: center;
+            padding: 30px 20px;
+            color: #fff;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 3em;
+        }
+
+        nav {
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav a {
+            color: #333;
+            text-decoration: none;
+            margin: 0 15px;
+            font-size: 1.1em;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background-color: #fff;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #A2DFF7; /* Baby Blue */
+            color: #fff;
+        }
+
+        section {
+            padding: 50px 20px;
+            max-width: 900px;
+            margin: 0 auto;
+        }
+
+        h2 {
+            font-size: 2em;
+            margin-bottom: 15px;
+            color: #333;
+        }
+
+        .content {
+            margin-bottom: 40px;
+        }
+
+        footer {
+            text-align: center;
+            background-color: #A2DFF7; /* Baby Blue */
+            color: white;
+            padding: 15px 0;
+        }
+
+        .social-links a {
+            margin: 0 10px;
+            font-size: 1.5em;
+            color: #333;
+        }
+
+        .material-list {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .material-list li {
+            padding: 8px;
+            background-color: #fff;
+            margin: 8px 0;
+            border-radius: 5px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .material-list a {
+            color: #333;
+            text-decoration: none;
+        }
+
+        .material-list a:hover {
+            color: #A2DFF7; /* Baby Blue */
+        }
+
+        .section-header {
+            background-color: #fff;
+            padding: 10px;
+            text-align: center;
+            font-weight: bold;
+            margin-top: 30px;
+            border-radius: 5px;
+        }
+
+        .unique-layout {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .unique-layout .section {
+            width: 48%;
+            margin-bottom: 30px;
+        }
+
+        @media (max-width: 768px) {
+            .unique-layout {
+                flex-direction: column;
+            }
+
+            .unique-layout .section {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>BRF-materiale si teste</h1>
+        <nav>
+            <a href="#about">About Me</a>
+            <a href="#romanian-materials">Romanian Materials</a>
+            <a href="#english-materials">English Materials</a>
+            <a href="#social">Instagram</a>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <div class="content">
+            <p>Hello! I'm a student passionate about helping other students. My goal is to share materials and resources related to Medicine and Balneofiziokinetotherapy, especially focusing on rehabilitation. I believe that knowledge should be accessible to all, and I'm here to support you in your educational journey.</p>
+        </div>
+    </section>
+
+    <div class="unique-layout">
+        <section id="romanian-materials" class="section">
+            <h2 class="section-header">Materiale în Limba Română</h2>
+            <ul class="material-list">
+                <li><a href="#">Test 1 - Medicina</a></li>
+                <li><a href="#">Manual 1 - Balneofiziokinetoterapie</a></li>
+                <li><a href="#">Imagine 1 - Recuperare</a></li>
+            </ul>
+        </section>
+
+        <section id="english-materials" class="section">
+            <h2 class="section-header">Materials in English</h2>
+            <ul class="material-list">
+                <li><a href="#">Test 1 - Medicine</a></li>
+                <li><a href="#">Manual 1 - Balneophysiotherapy</a></li>
+                <li><a href="#">Image 1 - Rehabilitation</a></li>
+            </ul>
+        </section>
+    </div>
+
+    <section id="social">
+        <h2>Connect with Me on Instagram</h2>
+        <div class="social-links">
+            <a href="https://www.instagram.com/yourusername" target="_blank">Instagram</a>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 BRF-materiale si teste. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
